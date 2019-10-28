@@ -69,4 +69,4 @@ Now you will be brought back to the pull request screen and the `Merge pull requ
 Now you can click `Confirm merge`. If you go to the commit history on GitHub, you should be able to see your merging commit. 
 
 Congratulations! You have succesfully resolved a merge conflict!  
-**Person B is now done with the hw. [Please see final step once Person A is finished](README.md#Final Step Once Both Teammates Are Done)**
+**Person B is now done with the hw. [Please see final step once Person A is finished](README.md#final-step-once-both-teammates-are-done)**
