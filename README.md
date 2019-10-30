@@ -9,7 +9,7 @@ This homework will be due on Monday,
 ## When will I know I'm done?
 Advice: read the steps!!
  
-You are done when you can see 3 different branches, including master, your changes and pull requests shown in Commit History, and the 2 methods are implemented correctly in all 3 branches. We should be able to see these changes on **GitHub** and not just your terminal
+You are done when you can see 3 different branches (including master), your changes and pull requests are shown in Commit History, and the 2 methods are implemented correctly in all 3 branches. We should be able to see these changes on **GitHub** and not just your terminal.
  
 Keep in mind: **For us to see your work it has to be on GitHub, aka the central repository. We can't grade your work if it is just in your local repository.**
 
@@ -17,9 +17,9 @@ Keep in mind: **For us to see your work it has to be on GitHub, aka the central 
  
 ## Step 1 (Both Person A and Person B): Clone the repository. TODOs exist here
 ### TODO 1 
-As you've done before, everything git related usually starts with a clone. Once you have created your copy of the Homework 4 repository (`homework-5-<your GitHub username>`), **run** the command `git clone https://github.com/purdue-cs193-fall-2019/homework-5-<your GitHub username>.git`. As you know, all this command does is to download a copy of the *remote* repository to your *local* machine. 
+As you've done before, everything git related usually starts with a clone. Once you have created your copy of the Homework 5 repository (`homework-5-<your GitHub username>`), **run** the command `git clone https://github.com/purdue-cs193-fall-2019/homework-5-<your GitHub username>.git`. As you know, all this command does is to download a copy of the *remote* repository to your *local* machine. 
  
-Now if you run `ls`, you should see a directory called `homework-5-<your GitHub username>`. `cd` into this directory and run `ls` again and you should see all the same files that GitHub shows in the browser for this repository. 
+Now if you run `ls`, you should see a directory called `homework-5-<your GitHub username>`. `cd` into this directory and run `ls` again. You should see all the same files that GitHub shows in the browser for this repository. 
  
 ## Step 2 (Both Person A and Person B): Status
 One of the most frequently used git commands is `git status`. Any time you are inside a git repository (i.e. your current directory or one of its parents is an initialized git repository), you can run `git status` to see precisely what state your repository is in. 
@@ -35,6 +35,7 @@ The third line `nothing to commit, working tree clean` tells you that you have n
 ## Steps for Person A:
 ## Step 1A:Creating your own branch. TODOs exist in this step!
 You are tasked to implement a basic calculator function! This function should be able to take in the operator as input and perform the corresponding operation. **The operators are represented by Enum States: ADD, SUBTRACT, MULTIPLY, DIVIDE** Your job is to use **if-elseif-else logic** to implement these calculator functions. If you are unsure how to compare Enums, feel free to look on Google. 
+
 ### TODO 2
 Create a branch called **PersonA**. To do this while on the master branch, run `git checkout -b PersonA`. What this does is create a branch called PersonA and switches to that branch. If you run `git status` again, you should see the first line say `On branch PersonA`. 
 
@@ -54,7 +55,7 @@ Go ahead and create the pull request. There shouldn't be a merge conflict here.
 Wait until your partner completes step 1B.
 
 ## Step 2A: Changing the second method: printValuesandReturnSum. TODOs exist in this step!
-Your partner has completed this method using a for loop. Surprise! It has decided that they want to convert all of their looping mechanisms to while loops. Your job now is to change the method's implementation to use a while loop instead. On branch **PersonA**, the method printValuesandReturnSum should be empty already!
+Your partner has completed this method using a for loop. Surprise! It has been decided that they want to convert all of their looping mechanisms to while loops. Your job now is to change the method's implementation to use a while loop instead. On branch **PersonA**, the method printValuesandReturnSum should be empty already!
 
 ### TODO 7
 the method `printValuesandReturnSum` iterates through the passed in array, prints out each value of the array, and finally returns the sum at the end. **You must implement this method with a while loop**. 
@@ -105,8 +106,9 @@ Congratulations! You have succesfully resolved a merge conflict!!
 ## Steps for Person B:
 ## Step 1B:Creating your own branch. TODOs exist in this step!
 You are tasked to implement function that can print the values of an array and return the sum! This function has the name `printValuesAndReturnSum`. **You must implement this function using a for loop**. 
+
 ### TODO 2
-Create a branch called **PersonB**. To do this while on the master branch, run `git checkout -b PersonB`. What this does is create a branch called PersonB and switches to that branch. If you run `git status` again, you should see the first line say `On branch PersonB`. 
+Create a branch called **PersonB**. To do this while on the master branch, run `git checkout -b PersonB`. What this does is create a new branch called PersonB and switches to that branch. If you run `git status` again, you should see the first line say `On branch PersonB`. 
 
 ### TODO 3
 Edit the method `printValuesAndReturnSum` in the file `Implementation.java`. Print out the values of the passed in int array and return the sum of all the values. **It is mandatory for you to use a for loop to iterate through the array**
