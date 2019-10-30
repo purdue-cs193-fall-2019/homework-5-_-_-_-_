@@ -9,7 +9,7 @@ This homework will be due on Monday,
 ## When will I know I'm done?
 Advice: read the steps!!
  
-You are done when you can see 3 different branches, including master, your changes and pull requests shown in Commit History, and the 2 methods are implemented correctly in all 3 branches. We should be able to see these changes on **GitHub** and not just your terminal
+You are done when you can see 3 different branches (including master), your changes and pull requests are shown in Commit History, and the 2 methods are implemented correctly in all 3 branches. We should be able to see these changes on **GitHub** and not just your terminal.
  
 Keep in mind: **For us to see your work it has to be on GitHub, aka the central repository. We can't grade your work if it is just in your local repository.**
 
@@ -19,7 +19,7 @@ Keep in mind: **For us to see your work it has to be on GitHub, aka the central 
 ### TODO 1 
 As you've done before, everything git related usually starts with a clone. Once you have created your copy of the Homework 5 repository (`homework-5-<your GitHub username>`), **run** the command `git clone https://github.com/purdue-cs193-fall-2019/homework-5-<your GitHub username>.git`. As you know, all this command does is to download a copy of the *remote* repository to your *local* machine. 
  
-Now if you run `ls`, you should see a directory called `homework-5-<your GitHub username>`. `cd` into this directory and run `ls` again and you should see all the same files that GitHub shows in the browser for this repository. 
+Now if you run `ls`, you should see a directory called `homework-5-<your GitHub username>`. `cd` into this directory and run `ls` again. You should see all the same files that GitHub shows in the browser for this repository. 
  
 ## Step 2 (Both Person A and Person B): Status
 One of the most frequently used git commands is `git status`. Any time you are inside a git repository (i.e. your current directory or one of its parents is an initialized git repository), you can run `git status` to see precisely what state your repository is in. 
