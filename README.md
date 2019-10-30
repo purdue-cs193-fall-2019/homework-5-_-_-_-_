@@ -88,7 +88,7 @@ Now you will be brought to a screen that looks like a text editor. In your code 
 
 ![](./hw5images/textEditorExample.png)
 
-To "choose" your code, remove the code from master, as well as those lines inputted by Git, such as `<<<<<PersonA`. Essentially you want your code to look like what it looked like in IntelliJ. Once the conflicts are resolved, Git will tell you by placing a green check mark next to the file name
+To "choose" your code, first remove the code from master (so, the code between `======` and `>>>>>master`). To make the code compilable, you must also remove the lines inputted by Git, such as `<<<<<PersonA`. Essentially, you want this section of the code to look like what it looked like in your local repository. Once the conflicts are resolved, Git will tell you by placing a green check mark next to the file name.
 
 ![](./hw5images/greenCheckMark.png)
 
@@ -159,7 +159,7 @@ Now you will be brought to a screen that looks like a text editor. In your code 
 
 ![](./hw5images/textEditorExample.png)
 
-To "choose" your code, remove the code from master, as well as those lines inputted by Git, such as `<<<<<PersonB`. Essentially you want your code to look like what it looked like in IntelliJ. Once the conflicts are resolved, Git will tell you by placing a green check mark next to the file name
+To "choose" your code, first remove the code from master (so, the code between `======` and `>>>>>master`). To make the code compilable, you must also remove the lines inputted by Git, such as `<<<<<PersonB`. Essentially, you want this section of the code to look like what it looked like in your local repository. Once the conflicts are resolved, Git will tell you by placing a green check mark next to the file name.
 
 ![](./hw5images/greenCheckMark.png)
 
