@@ -15,7 +15,7 @@ Now on if you refresh your GitHub web view again, you should see this dialog pop
 ![](./hw5images/githubDialogCompareAndPRequest.png)
 
 If you don't see this dialog, click on the Pull requests tab near the top of the page -> New pull request -> leave `base` as master but set `compare` to the branch you just pushed.  
-Go ahead and create the pull request. There shouldn't be a merge conflict here. 
+Go ahead and create the pull request and merge the pull request into master. There shouldn't be a merge conflict here. 
 
 ### TODO 6
 Wait until your partner completes step 1B.
