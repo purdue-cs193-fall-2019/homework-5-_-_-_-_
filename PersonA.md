@@ -5,7 +5,7 @@ You are tasked to implement a basic calculator function! This function should be
 Create a branch called **PersonA**. To do this, while on the master branch, run `git checkout -b PersonA`. What this does is create a branch called PersonA and switches to that branch. If you run `git status` again, you should see the first line say `On branch PersonA`. 
 
 ### TODO 3
-Edit the method `basicCalculator` in the file `Implementation.java`. Notice how the method returns a double. `num1` will always be the number that appears first, and `num2` will be the number that appears second. For example if I subtract, the operation should be `num1` - `num2`. If the operation is division and num2 is equal to 0, `return 0.0`. **It is mandatory for you to use if-elseif-else logic here**
+Edit the method `basicCalculator` in the file `Test1.java`. Notice how the method returns a double. `num1` will always be the number that appears first, and `num2` will be the number that appears second. For example if I subtract, the operation should be `num1` - `num2`. If the operation is division and num2 is equal to 0, `return 0.0`. **It is mandatory for you to use if-elseif-else logic here**
 
 ### TODO 4
 Once you finish making the changes and ensure that your implementation is correct, use the terminal and what you learned in the git lecture to add the file, commit with a meaningful message, and finally push. **The first time you push, Git will tell you to run another command**. For the first push from a branch, you will run `git push --set-upstream origin PersonA`. This command esssentially creates this branch in GitHub, the central repository, for you. 
