@@ -5,7 +5,7 @@ You are tasked to implement function that can print the values of an array and r
 Create a branch called **PersonB**. To do this, while on the master branch, run `git checkout -b PersonB`. What this does is create a branch called PersonB and switches to that branch. If you run `git status` again, you should see the first line say `On branch PersonB`. 
 
 ### TODO 3
-Edit the method `printValuesAndReturnSum` in the file `Implementation.java`. Print out the values of the passed in int array and return the sum of all the values. **It is mandatory for you to use a for loop to iterate through the array**
+Edit the method `printValuesAndReturnSum` in the file `Test1.java`. Print out the values of the passed in int array and return the sum of all the values. **It is mandatory for you to use a for loop to iterate through the array**
 
 ### TODO 4
 Once you finish making the changes and ensure that your implementation is correct, use the terminal to add the file, commit with a meaningful message, and finally push. **The first time you push, Git will tell you to run another command**. For the first push from a branch, you will run `git push --set-upstream origin PersonB`. This command esssentially creates this branch in GitHub, the central repository, for you. 
