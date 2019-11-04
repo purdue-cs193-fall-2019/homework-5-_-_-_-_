@@ -4,7 +4,7 @@
 In this assignment, you will be working with a partner to navigate the use of branches and solving merge conflicts. As you learned in lecture, merge conflicts are bound to happen and rather than try to avoid them, we should learn how to manage them. Branching is another key aspect of collaboration. Your teammate and you will work on 2 seperate branches, both different from the master branch, and will implement the same 2 methods in different ways. Merge conflicts will appear, and you and your partner will both have the oppurtunity to fix them. 
  
 ## When is this due?
-This homework will be due on Monday,
+This homework will be due on Monday, 11/18.
  
 ## When will I know I'm done?
 Advice: read the steps!!
