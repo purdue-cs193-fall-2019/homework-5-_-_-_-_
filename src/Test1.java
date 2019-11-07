@@ -6,9 +6,17 @@ enum Operation
 public class Test1 {
 
     public static double basicCalculator(Operation operation, int num1, int num2){
-        double result = 0;
-
-        return result;
+        if (operation == Operation.ADD) {
+		return num1 + num2;
+	} else if (operation == Operation.SUBTRACT) {
+		return num1 - num2;
+	} else if (operation == Operation.MULTIPLY) {
+		return num1 * num2;
+	} else if (num2 == 0) {
+		return 0.0;
+	} else {
+		return num1 / num2;
+	}
     }
 
     public static int printValuesandReturnSum(int[] input){
