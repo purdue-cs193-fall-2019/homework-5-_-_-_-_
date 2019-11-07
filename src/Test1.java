@@ -6,6 +6,7 @@ enum Operation
 public class Test1 {
 
     public static double basicCalculator(Operation operation, int num1, int num2){
+	try {
         switch (operation) {
             case ADD:
                 return num1 + num2;
@@ -14,9 +15,13 @@ public class Test1 {
             case MULTIPLY:
                 return num1 * num2;
             case DIVIDE:
+		if (num2 == 0) return 0.0;
                 return num1 / num2;
         }
         return -1;
+	} catch (Exception e) {
+		return -1;
+	}
     }
 
     public static int printValuesandReturnSum(int[] input){
