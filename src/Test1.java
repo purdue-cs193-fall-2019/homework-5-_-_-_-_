@@ -21,7 +21,10 @@ public class Test1 {
 
     public static int printValuesandReturnSum(int[] input){
         int sum = 0;
-
+        for (int i=0;i<input.length;i++) {
+            sum += input[i];
+            System.out.println(input[i]);
+        }
         return sum;
     }
 
