@@ -20,12 +20,16 @@ public class Test1 {
     }
 
     public static int printValuesandReturnSum(int[] input){
-        int sum = 0;
-        for (int i=0;i<input.length;i++) {
-            sum += input[i];
-            System.out.println(input[i]);
-        }
-        return sum;
+      int sum = 0;
+	    int idx = 0;
+
+	    while (idx < input.length) {
+		    System.out.println(input[idx]);
+		    sum += input[idx];
+		    idx++;
+      }
+      
+      return sum;
     }
 
     public static void main(String[] args) {
